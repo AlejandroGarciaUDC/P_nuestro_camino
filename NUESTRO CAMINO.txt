@@ -1,0 +1,22 @@
+NUESTRO CAMINO
+Juego de Mesa de Alexito y Danielita
+
+El objetivo del juego es ser el primero en conseguir 3 estrellas, es decir, llegar a la casilla de FINISH 3 veces, cada vez que se llega se vuelve a la de START.
+
+La casilla de DUELO: consiste en retar a una persona, quien gane avanza una casilla y el que pierda retrocede una casilla, se tiene que seleccionar uno de los 3 duelos:
+- Piedra, papel y tijera
+- Combate Pokémon: Consiste en escoger boca abajo una de las 5 cartas Pokémon que vienen con el juego y el jugador que seleccione la de vida más alta gana.
+- Sigue la canción: Se va a poner una canción y pararla para que el jugador  que levante la mano primero la siga, si falla contesta el otro, y si ninguno acierta los 2 retroceden una casilla.
+
+La casilla de AMOR:
+
+La casilla de DADO:
+
+Las casillas de AVANZAR:
+
+Las casillas de RETROCEDER:
+
+Situaciones Especiales:
+
+
+
