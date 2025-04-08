@@ -8,7 +8,7 @@ body {
 }
 
 header {
-  background-color: #fcebd5; /* tono beige claro */
+  background-color: #fcebd5;
   padding: 1rem 2rem;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
@@ -76,9 +76,10 @@ ul {
 
 footer {
   text-align: center;
-  padding: 1rem;
-  background-color: #d08b64;
-  color: #fff;
+  background-color: #b8724a;
+  padding: 1rem 2rem;
+  box-shadow: 6px 4px 0 rgba(0, 0, 0, 0.1);
+  color: #5b3c26;
 }
 
 .accordion-item {
@@ -116,7 +117,7 @@ footer {
 
 .accordion-content.open {
   padding: 1rem;
-  max-height: 1000px; 
+  max-height: 3000px; 
 }
 
 
