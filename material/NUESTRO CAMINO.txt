@@ -1,22 +1,32 @@
 NUESTRO CAMINO
 Juego de Mesa de Alexito y Danielita
 
+El juego incluye:
+
+x1 tablero
+x2 fichas personalizadas
+x5 cartas Pokémon japonesas
+x1 dado
+
 El objetivo del juego es ser el primero en conseguir 3 estrellas, es decir, llegar a la casilla de FINISH 3 veces, cada vez que se llega se vuelve a la de START.
 
-La casilla de DUELO: consiste en retar a una persona, quien gane avanza una casilla y el que pierda retrocede una casilla, se tiene que seleccionar uno de los 3 duelos:
+La casilla de DUELO: Consiste en retar a una persona, quien gane avanza una casilla y el que pierda retrocede una casilla, se tiene que seleccionar uno de los 3 duelos:
 - Piedra, papel y tijera
 - Combate Pokémon: Consiste en escoger boca abajo una de las 5 cartas Pokémon que vienen con el juego y el jugador que seleccione la de vida más alta gana.
-- Sigue la canción: Se va a poner una canción y pararla para que el jugador  que levante la mano primero la siga, si falla contesta el otro, y si ninguno acierta los 2 retroceden una casilla.
+- Sigue la canción: Se va a poner una canción y pararla para que el jugador que coloque la mano sobre el centro de la mesa primero la siga, si falla contesta el otro, y si ninguno acierta los 2 retroceden una casilla.
 
-La casilla de AMOR:
+La casilla de AMOR: Consiste en contestar una pregunta sobre Alexito y Danielita, si se acierta, avanza una casilla, si se falla, se retroceden 2 casillas.
 
-La casilla de DADO:
+La casilla de DADO: Consiste en tirar el dado otra vez, si sale par se retroceden el número de casillas que salga en el dado, y si sale impar lo mismo pero se avanzan.
 
-Las casillas de AVANZAR:
+Las casillas de AVANZAR: Consiste en avanzar el número de casilla indicado en la propia casilla
 
-Las casillas de RETROCEDER:
+Las casillas de RETROCEDER: Consiste en retroceder el número de casilla indicado en la propia casilla
 
-Situaciones Especiales:
+Situaciones Especiales: 
+
+	- Casillas Cruzadas: En el caso de que 2 jugadores se encuentren a la vez en las casillas cruzadas los 2 jugadores serán movidos a la casilla START y empezar de nuevo el recorrido.
+	- Casilla Estrellada: Una vez se cae en esta casilla te permite moverte a 3 direcciones, una de las casillas de Duy, la casilla debajo de No mentira y la casilla debajo de Aish.
 
 
 
