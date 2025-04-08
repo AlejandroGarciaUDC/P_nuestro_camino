@@ -3,72 +3,86 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Instrucciones - Nuestro Camino</title>
+  <title>Nuestro Camino</title>
   <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
   <header>
-    <h1>🎲 Nuestro Camino</h1>
-    <p><strong>Juego de Mesa de Alexito y Danielita</strong></p>
+    <div class="logo-container">
+      <img src="material/Logo.png" alt="Nuestro Camino logo" class="logo" />
+      <h1>Juego de mesa de Alexito y Danielita</h1>
+    </div>
   </header>
 
   <main>
-    <section>
-      <h2>🎁 Contenido del juego</h2>
-      <ul>
-        <li>x1 tablero</li>
-        <li>x2 fichas personalizadas</li>
-        <li>x5 cartas Pokémon japonesas</li>
-        <li>x1 dado</li>
-      </ul>
-    </section>
+
+    <div class="accordion-item">
+      <button class="accordion-toggle">🎁 Contenido del juego</button>
+      <div class="accordion-content">
+        <ul>
+          <li>x1 tablero</li>
+          <li>x2 fichas personalizadas</li>
+          <li>x5 cartas Pokémon japonesas</li>
+          <li>x1 dado</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="accordion-item">
+      <button class="accordion-toggle">🎯 Objetivo del juego</button>
+      <div class="accordion-content">
+        <p>Ser el primero en conseguir 3 estrellas, es decir, llegar a la casilla de <strong>FINISH</strong> tres veces. Cada vez que se llega, se vuelve a la casilla de <strong>START</strong>.</p>
+      </div>
+    </div>
+
+    <div class="accordion-item">
+      <button class="accordion-toggle">🧩 Tipos de casilla</button>
+      <div class="accordion-content">
+        <h3>⚔️ Casilla de DUELO</h3>
+        <p>Reta a otro jugador. El ganador avanza una casilla y el perdedor retrocede una. Puedes elegir uno de los siguientes duelos:</p>
+        <ul>
+          <li><strong>Piedra, papel o tijera</strong></li>
+          <li><strong>Combate Pokémon</strong>: Cada jugador elige una carta Pokémon boca abajo. El que tenga la de mayor vida gana.</li>
+          <li><strong>Sigue la canción</strong>: Se pausa una canción. El primero que coloque la mano en el centro de la mesa debe continuarla. Si falla, responde el otro. Si ambos fallan, retroceden una casilla.</li>
+        </ul>
+
+        <h3>❤️ Casilla de AMOR</h3>
+        <p>Consiste en responder una pregunta sobre <strong>Alexito y Danielita</strong>. Si se acierta, se avanza una casilla. Si se falla, se retroceden dos.</p>
+
+        <h3>🎲 Casilla de DADO</h3>
+        <p>Tira el dado otra vez:</p>
+        <ul>
+          <li>Si sale <strong>par</strong>: retrocede ese número de casillas.</li>
+          <li>Si sale <strong>impar</strong>: avanza ese número de casillas.</li>
+        </ul>
+
+        <h3>⏩ Casillas de AVANZAR</h3>
+        <p>Avanza el número de casillas que se indica en esa casilla.</p>
+
+        <h3>⏪ Casillas de RETROCEDER</h3>
+        <p>Retrocede el número de casillas que se indica en esa casilla.</p>
+      </div>
+    </div>
+
+    <div class="accordion-item">
+      <button class="accordion-toggle">✨ Situaciones Especiales</button>
+      <div class="accordion-content">
+        <h3>🔀 Casillas Cruzadas</h3>
+        <p>Si dos jugadores se encuentran a la vez en una casilla cruzada, ambos vuelven a <strong>START</strong> y deben comenzar el recorrido de nuevo.</p>
+
+        <h3>🌟 Casilla Estrellada</h3>
+        <p>Permite moverte en 3 direcciones diferentes:</p>
+        <ul>
+          <li>A una casilla de <strong>Duy</strong></li>
+          <li>A la casilla debajo de <strong>No mentira</strong></li>
+          <li>A la casilla debajo de <strong>Aish</strong></li>
+        </ul>
+      </div>
+    </div>
 
     <section>
-      <h2>🎯 Objetivo del juego</h2>
-      <p>Ser el primero en conseguir 3 estrellas, es decir, llegar a la casilla de <strong>FINISH</strong> tres veces. Cada vez que se llega, se vuelve a la casilla de <strong>START</strong>.</p>
-    </section>
-
-    <section>
-      <h2>🧩 Tipos de casilla</h2>
-
-      <h3>⚔️ Casilla de DUELO</h3>
-      <p>Reta a otro jugador. El ganador avanza una casilla y el perdedor retrocede una. Puedes elegir uno de los siguientes duelos:</p>
-      <ul>
-        <li><strong>Piedra, papel o tijera</strong></li>
-        <li><strong>Combate Pokémon</strong>: Cada jugador elige una carta Pokémon boca abajo. El que tenga la de mayor vida gana.</li>
-        <li><strong>Sigue la canción</strong>: Se pausa una canción. El primero que coloque la mano en el centro de la mesa debe continuarla. Si falla, responde el otro. Si ambos fallan, retroceden una casilla.</li>
-      </ul>
-
-      <h3>❤️ Casilla de AMOR</h3>
-      <p>Consiste en responder una pregunta sobre <strong>Alexito y Danielita</strong>. Si se acierta, se avanza una casilla. Si se falla, se retroceden dos.</p>
-
-      <h3>🎲 Casilla de DADO</h3>
-      <p>Tira el dado otra vez:</p>
-      <ul>
-        <li>Si sale <strong>par</strong>: retrocede ese número de casillas.</li>
-        <li>Si sale <strong>impar</strong>: avanza ese número de casillas.</li>
-      </ul>
-
-      <h3>⏩ Casillas de AVANZAR</h3>
-      <p>Avanza el número de casillas que se indica en esa casilla.</p>
-
-      <h3>⏪ Casillas de RETROCEDER</h3>
-      <p>Retrocede el número de casillas que se indica en esa casilla.</p>
-    </section>
-
-    <section>
-      <h2>✨ Situaciones Especiales</h2>
-
-      <h3>🔀 Casillas Cruzadas</h3>
-      <p>Si dos jugadores se encuentran a la vez en una casilla cruzada, ambos vuelven a <strong>START</strong> y deben comenzar el recorrido de nuevo.</p>
-
-      <h3>🌟 Casilla Estrellada</h3>
-      <p>Permite moverte en 3 direcciones diferentes:</p>
-      <ul>
-        <li>A una casilla de Duy</li>
-        <li>A la casilla debajo de <strong>No mentira</strong></li>
-        <li>A la casilla debajo de <strong>Aish</strong></li>
-      </ul>
+      <h2>Tablero</h2>
+      <img src="material/Tablero.png" alt="Tablero del juego" class="tablero">
     </section>
   </main>
 

@@ -1,1 +1,8 @@
-console.log("Página cargada: instrucciones del juego activas.");
+const toggles = document.querySelectorAll('.accordion-toggle');
+
+  toggles.forEach(toggle => {
+    toggle.addEventListener('click', () => {
+      const content = toggle.nextElementSibling;
+      content.classList.toggle('open');
+    });
+  });
