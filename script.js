@@ -7,3 +7,4 @@ const toggles = document.querySelectorAll('.accordion-toggle');
     });
   });
   
+  
