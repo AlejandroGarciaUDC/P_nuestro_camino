@@ -6,3 +6,4 @@ const toggles = document.querySelectorAll('.accordion-toggle');
       content.classList.toggle('open');
     });
   });
+  
